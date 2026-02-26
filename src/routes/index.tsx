@@ -1,4 +1,5 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
+import { QRCodeSVG } from "qrcode.react";
 
 export const Route = createFileRoute("/")({
 	component: App,
@@ -14,6 +15,12 @@ function App() {
 				>
 					<h1>Self Hosting Eagertalk Slides</h1>
 				</Link>
+
+        <QRCodeSVG
+          value="https://self-hosting-eagertalk.emidesejas.dev"
+          size={150}
+          className="mx-auto my-4"
+        />
 			</header>
 		</div>
 	);

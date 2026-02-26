@@ -17,10 +17,11 @@ import { Slide as ThePlanSlide } from "~/slides/07";
 import { Slide as StaticRenderingSlide } from "~/slides/08";
 import { Slide as ScalingSlide } from "~/slides/09";
 import { Slide as CloudFrontSlide } from "~/slides/10";
-import { Slide as CloudflareSlide } from "~/slides/11";
-import { Slide as LessonsLearnedSlide } from "~/slides/12";
-import { Slide as AlternativesSlide } from "~/slides/13";
-import { Slide as ThankYouSlide } from "~/slides/14";
+import { Slide as Results } from "~/slides/11";
+import { Slide as CloudflareSlide } from "~/slides/12";
+import { Slide as LessonsLearnedSlide } from "~/slides/13";
+import { Slide as AlternativesSlide } from "~/slides/14";
+import { Slide as ThankYouSlide } from "~/slides/15";
 
 export const Route = createFileRoute("/slides/")({
 	component: SlidesPage,
@@ -75,7 +76,8 @@ function SlidesPage() {
 					<StaticRenderingSlide />
 					<ScalingSlide />
 					<CloudFrontSlide />
-					<CloudflareSlide />
+					<Results />
+          <CloudflareSlide />
 					<LessonsLearnedSlide />
 					<AlternativesSlide />
 					<ThankYouSlide />
