@@ -7,7 +7,9 @@
     "start": "vite --port 3000",
     "build": "vite build && tsc",
     "serve": "vite preview",
-    "test": "vitest run"
+    "test": "vitest run",
+    "deploy": "pnpm run build && wrangler deploy",
+    "preview": "pnpm run build && wrangler dev"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
@@ -33,7 +35,8 @@
     "typescript": "^5.7.2",
     "vite": "^6.1.0",
     "vitest": "^3.0.5",
-    "web-vitals": "^4.2.4"
+    "web-vitals": "^4.2.4",
+    "wrangler": "^4.69.0"
   },
   "overrides": {
     "@tanstack/react-router": "^1.121.2"
