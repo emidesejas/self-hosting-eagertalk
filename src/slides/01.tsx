@@ -1,4 +1,4 @@
-import { QRCodeSVG } from "qrcode.react";
+
 
 export const Slide = () => {
 	return (
