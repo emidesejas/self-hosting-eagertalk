@@ -9,12 +9,18 @@ import RevealNotes from "reveal.js/plugin/notes/notes";
 
 import { Slide as TitleSlide } from "~/slides/01";
 import { Slide as AgendaSlide } from "~/slides/02";
-import { Slide as CICDSlide } from "~/slides/03";
-import { Slide as CommonFlowsSlide } from "~/slides/04";
-import { Slide as DockerSlide } from "~/slides/05";
-import { Slide as KamalSlide } from "~/slides/06";
-import { Slide as ExampleSlide } from "~/slides/07";
-import { Slide as ThankYouSlide } from "~/slides/08";
+import { Slide as ContextSlide } from "~/slides/03";
+import { Slide as RedFlagsSlide } from "~/slides/04";
+import { Slide as AdsHellSlide } from "~/slides/05";
+import { Slide as BreakingPointSlide } from "~/slides/06";
+import { Slide as ThePlanSlide } from "~/slides/07";
+import { Slide as StaticRenderingSlide } from "~/slides/08";
+import { Slide as ScalingSlide } from "~/slides/09";
+import { Slide as CloudFrontSlide } from "~/slides/10";
+import { Slide as CloudflareSlide } from "~/slides/11";
+import { Slide as LessonsLearnedSlide } from "~/slides/12";
+import { Slide as AlternativesSlide } from "~/slides/13";
+import { Slide as ThankYouSlide } from "~/slides/14";
 
 export const Route = createFileRoute("/slides/")({
 	component: SlidesPage,
@@ -61,11 +67,17 @@ function SlidesPage() {
 				<div className="slides">
 					<TitleSlide />
 					<AgendaSlide />
-					<CICDSlide />
-					<CommonFlowsSlide />
-					<DockerSlide />
-					<KamalSlide />
-					<ExampleSlide />
+					<ContextSlide />
+					<RedFlagsSlide />
+					<AdsHellSlide />
+					<BreakingPointSlide />
+					<ThePlanSlide />
+					<StaticRenderingSlide />
+					<ScalingSlide />
+					<CloudFrontSlide />
+					<CloudflareSlide />
+					<LessonsLearnedSlide />
+					<AlternativesSlide />
 					<ThankYouSlide />
 				</div>
 			</div>

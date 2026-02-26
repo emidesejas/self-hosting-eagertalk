@@ -1,13 +1,16 @@
 export const Slide = () => {
 	return (
 		<section>
-			<section>
-				<h2 className="fragment shrink semi-fade-out" data-fragment-index="1">
-					Continuous Integration
-				</h2>
-				<h2 className="fragment grow" data-fragment-index="1">
-					Continuous Delivery
-				</h2>
+			<section data-auto-animate>
+				<h3>Context</h3>
+			</section>
+			<section data-auto-animate>
+				<h3>Context</h3>
+				<ul>
+					<li>Next.js application</li>
+					<li>Single EC2 instance</li>
+					<li>Kamal for deployment</li>
+				</ul>
 			</section>
 		</section>
 	);

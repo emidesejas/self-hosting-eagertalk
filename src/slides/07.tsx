@@ -2,13 +2,16 @@ export const Slide = () => {
 	return (
 		<section>
 			<section data-auto-animate>
-				<h3>Let's deploy a simple app</h3>
+				<h3>The Plan</h3>
 			</section>
-
 			<section data-auto-animate>
-				<p>Kamal Configuration</p>
-
-				<p className="fragment fade-in">Let's take a look 😄</p>
+				<h3>The Plan</h3>
+				<ol>
+					<li className="fragment">Reduce server load</li>
+					<li className="fragment">Static rendering</li>
+					<li className="fragment">Scale</li>
+					<li className="fragment">CDN for assets</li>
+				</ol>
 			</section>
 		</section>
 	);

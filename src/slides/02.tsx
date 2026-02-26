@@ -7,10 +7,12 @@ export const Slide = () => {
 			<section data-auto-animate>
 				<h3>Agenda</h3>
 				<ul>
-					<li>CI/CD</li>
-					<li>Common Flows</li>
-					<li>Improving with Docker</li>
-					<li>Where Kamal steps in</li>
+					<li>Context</li>
+					<li>Red Flags</li>
+					<li>Ads Hell</li>
+					<li>The Breaking Point</li>
+					<li>The Plan</li>
+					<li>Lessons Learned</li>
 				</ul>
 			</section>
 		</section>
