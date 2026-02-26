@@ -9,8 +9,8 @@ export const Slide = () => {
 				<ol>
 					<li className="fragment">Reduce server load</li>
 					<li className="fragment">Static rendering</li>
-					<li className="fragment">Scale</li>
 					<li className="fragment">CDN for assets</li>
+					<li className="fragment">Scale</li>
 				</ol>
 			</section>
 		</section>

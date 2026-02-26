@@ -10,8 +10,8 @@ export const Slide = () => {
 			</section>
 			<section data-auto-animate>
 				<h3>Ads Hell</h3>
-				<p>Traffic spike</p>
-				<p className="fragment">EC2 overwhelmed</p>
+				<p className="fragment" >Traffic spikes</p>
+				<p className="fragment" >EC2 overwhelmed</p>
 			</section>
 		</section>
 	);

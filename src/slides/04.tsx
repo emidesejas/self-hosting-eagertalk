@@ -9,7 +9,6 @@ export const Slide = () => {
 				<ul>
 					<li className="fragment">Unoptimized database queries</li>
 					<li className="fragment">Slow page load times</li>
-					<li className="fragment">Fixed and... ignored</li>
 				</ul>
 			</section>
 		</section>
